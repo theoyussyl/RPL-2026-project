@@ -4,8 +4,8 @@ Repository ini berisi dokumentasi dan pengembangan tugas mata kuliah **Rekayasa 
  
 ## Daftar Isi
  
-- [1. Pelacak Jejak Karbon Aktivitas Harian](#1-pelacak-jejak-karbon-aktivitas-harian)
-- [2. Aplikasi Manajemen Tanaman/Kebun Rumahan](#2-aplikasi-manajemen-tanamankebun-rumahan)
+- [1. Aplikasi Manajemen Tanaman/Kebun Rumahan](#2-aplikasi-manajemen-tanamankebun-rumahan)
+- [2. Pelacak Jejak Karbon Aktivitas Harian](#1-pelacak-jejak-karbon-aktivitas-harian)
 - [3. Chatbot Edukasi Kabut Asap](#3-chatbot-edukasi-kabut-asap)
 ---
  
@@ -40,7 +40,9 @@ Banyak orang yang mulai berkebun di rumah (terutama pemula) kesulitan konsisten 
 - Data tanaman dan foto tersimpan dengan baik tanpa kehilangan data
 - Pengguna dapat melihat timeline pertumbuhan tanaman secara berurutan sesuai tanggal upload
 - Sistem mampu menangani pencatatan beberapa tanaman sekaligus tanpa error
+
  
 ## 2. Pelacak Jejak Karbon Aktivitas Harian
+
 
 ## 3. Chatbot Edukasi Kabut Asap
