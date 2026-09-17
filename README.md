@@ -4,8 +4,8 @@ Repository ini berisi dokumentasi dan pengembangan tugas mata kuliah **Rekayasa 
  
 ## Daftar Isi
  
-- [1. Aplikasi Manajemen Tanaman/Kebun Rumahan](#2-aplikasi-manajemen-tanamankebun-rumahan)
-- [2. Pelacak Jejak Karbon Aktivitas Harian](#1-pelacak-jejak-karbon-aktivitas-harian)
+- [1. Aplikasi Manajemen Tanaman/Kebun Rumahan](#1-aplikasi-manajemen-tanamankebun-rumahan)
+- [2. Pelacak Jejak Karbon Aktivitas Harian](#2-pelacak-jejak-karbon-aktivitas-harian)
 - [3. Chatbot Edukasi Kabut Asap](#3-chatbot-edukasi-kabut-asap)
 ---
  
