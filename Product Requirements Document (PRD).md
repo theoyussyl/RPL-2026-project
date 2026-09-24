@@ -1,5 +1,5 @@
 # Product Requirements Document (PRD)
-## Plant Garden Tracker — Aplikasi Manajemen Tanaman/Kebun Rumahan
+## Plant Garden Tracker (Aplikasi Manajemen Tanaman/Kebun Rumahan)
 
 **Versi:** 1.0
 **Status:** Draft
@@ -10,10 +10,10 @@
 
 Tren berkebun di rumah (urban farming, hidroponik, tanaman hias) terus meningkat, terutama di kalangan masyarakat perkotaan yang ingin mengisi waktu luang sekaligus menghadirkan ruang hijau di rumah. Namun, banyak pemula yang kesulitan menjaga konsistensi perawatan tanaman karena beberapa alasan:
 
-- **Lupa jadwal perawatan** — tidak ada pengingat kapan harus menyiram atau memupuk tanaman, sehingga tanaman sering terlambat dirawat.
-- **Tidak ada riwayat perkembangan** — pemilik tanaman tidak punya catatan visual untuk memantau apakah tanaman tumbuh sehat dari waktu ke waktu.
-- **Sulit evaluasi pola perawatan** — tanpa data historis, sulit menilai apakah jadwal siram/pupuk yang diterapkan sudah tepat atau perlu disesuaikan.
-- **Solusi yang ada belum spesifik** — aplikasi pengingat umum (to-do list, kalender) tidak dirancang khusus untuk kebutuhan berkebun (tidak ada dokumentasi foto per tanaman, tidak ada pengelompokan berdasarkan kebun).
+- **Lupa jadwal perawatan** : tidak ada pengingat kapan harus menyiram atau memupuk tanaman, sehingga tanaman sering terlambat dirawat.
+- **Tidak ada riwayat perkembangan** : pemilik tanaman tidak punya catatan visual untuk memantau apakah tanaman tumbuh sehat dari waktu ke waktu.
+- **Sulit evaluasi pola perawatan** : tanpa data historis, sulit menilai apakah jadwal siram/pupuk yang diterapkan sudah tepat atau perlu disesuaikan.
+- **Solusi yang ada belum spesifik** : aplikasi pengingat umum (to-do list, kalender) tidak dirancang khusus untuk kebutuhan berkebun (tidak ada dokumentasi foto per tanaman, tidak ada pengelompokan berdasarkan kebun).
 
 Masalah ini relevan terutama bagi individu yang punya kesibukan tinggi namun tetap ingin menjadikan berkebun sebagai kegiatan yang berkelanjutan, bukan sekadar tren sesaat.
 
@@ -55,7 +55,7 @@ Masalah ini relevan terutama bagi individu yang punya kesibukan tinggi namun tet
 - Catatan Pertumbuhan (GrowthLog): upload foto + catatan kondisi tanaman
 - Dashboard ringkasan status perawatan seluruh tanaman
 
-### Tidak Termasuk dalam Ruang Lingkup (Out of Scope — versi ini)
+### Tidak Termasuk dalam Ruang Lingkup (Out of Scope versi ini)
 - Autentikasi & multi-user (diasumsikan satu pengguna)
 - Notifikasi push/email otomatis
 - Deteksi otomatis penyakit tanaman berbasis AI/image recognition
@@ -126,26 +126,26 @@ Masalah ini relevan terutama bagi individu yang punya kesibukan tinggi namun tet
 
 ## 9. Alur Pengguna Utama (User Flow)
 
-### Flow 1 — Menambahkan Tanaman Baru
+### Flow 1 Menambahkan Tanaman Baru
 1. Pengguna membuka menu **Kebun Saya**.
 2. Jika belum ada kebun, pengguna membuat kebun baru (Nama, Lokasi).
 3. Pengguna membuka kebun tersebut → menekan **Tambah Tanaman**.
 4. Pengguna mengisi Nama dan Spesies tanaman → simpan.
 5. Tanaman muncul di daftar tanaman kebun tersebut.
 
-### Flow 2 — Mengatur & Menyelesaikan Jadwal Perawatan
+### Flow 2 Mengatur & Menyelesaikan Jadwal Perawatan
 1. Pengguna membuka **Detail Tanaman**.
 2. Pengguna menambahkan jadwal (tipe: Penyiraman/Pemupukan, frekuensi hari).
 3. Sistem menghitung `NextDueAt` dan menampilkannya.
 4. Saat tanaman selesai disiram/dipupuk, pengguna menekan **Tandai Sudah Dilakukan**.
 5. Sistem mencatat riwayat dan memperbarui jadwal berikutnya.
 
-### Flow 3 — Mendokumentasikan Pertumbuhan
+### Flow 3 Mendokumentasikan Pertumbuhan
 1. Pengguna membuka **Detail Tanaman**.
 2. Pengguna mengunggah foto terbaru, memilih kondisi tanaman, menambahkan catatan opsional.
 3. Foto masuk ke timeline pertumbuhan, terbaru di paling atas.
 
-### Flow 4 — Memantau Semua Tanaman dari Dashboard
+### Flow 4 Memantau Semua Tanaman dari Dashboard
 1. Pengguna membuka **Dashboard**.
 2. Pengguna melihat ringkasan jumlah tanaman yang perlu perawatan hari ini/terlambat.
 3. Pengguna menekan **Lihat Detail** pada tanaman berstatus `OVERDUE` untuk segera menindaklanjuti.
