@@ -35,23 +35,6 @@ Masalah ini relevan terutama bagi individu yang punya kesibukan tinggi namun tet
 - Individu dengan kesibukan tinggi yang mudah lupa jadwal perawatan tanaman
 - Pengguna usia 20–45 tahun yang menjadikan berkebun sebagai hobi/self-care
 
-### Persona
-
-**Persona 1 — "Dina, Pekerja Kantoran Sibuk" (28 tahun)**
-- Baru mulai menanam beberapa tanaman hias di apartemen.
-- Sering lupa menyiram karena kesibukan kerja.
-- Butuh: pengingat sederhana dan cepat dicek dari HP.
-
-**Persona 2 — "Pak Budi, Pensiunan yang Hobi Berkebun" (58 tahun)**
-- Mengelola kebun sayur kecil di halaman rumah.
-- Ingin mendokumentasikan perkembangan tanamannya untuk dibagikan ke keluarga.
-- Butuh: antarmuka yang sederhana dan tidak rumit.
-
-**Persona 3 — "Sari, Mahasiswa Urban Farming" (21 tahun)**
-- Mengelola beberapa pot hidroponik sebagai proyek pribadi.
-- Ingin mengevaluasi pola siram/pupuk berdasarkan riwayat data.
-- Butuh: riwayat lengkap dan status yang mudah dibaca.
-
 ---
 
 ## 4. Manfaat Produk
