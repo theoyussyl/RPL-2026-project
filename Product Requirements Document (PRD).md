@@ -187,8 +187,6 @@ GrowthLog
 
 ## 11. Contoh Endpoint API
 
-**Ringkasan endpoint:**
-
 | Method | Endpoint | Deskripsi |
 |---|---|---|
 | GET | `/api/gardens` | Daftar semua kebun |
