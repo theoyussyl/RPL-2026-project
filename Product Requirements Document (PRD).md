@@ -10,10 +10,10 @@
 
 Tren berkebun di rumah (urban farming, hidroponik, tanaman hias) terus meningkat, terutama di kalangan masyarakat perkotaan yang ingin mengisi waktu luang sekaligus menghadirkan ruang hijau di rumah. Namun, banyak pemula yang kesulitan menjaga konsistensi perawatan tanaman karena beberapa alasan:
 
-- **Lupa jadwal perawatan** : tidak ada pengingat kapan harus menyiram atau memupuk tanaman, sehingga tanaman sering terlambat dirawat.
-- **Tidak ada riwayat perkembangan** : pemilik tanaman tidak punya catatan visual untuk memantau apakah tanaman tumbuh sehat dari waktu ke waktu.
-- **Sulit evaluasi pola perawatan** : tanpa data historis, sulit menilai apakah jadwal siram/pupuk yang diterapkan sudah tepat atau perlu disesuaikan.
-- **Solusi yang ada belum spesifik** : aplikasi pengingat umum (to-do list, kalender) tidak dirancang khusus untuk kebutuhan berkebun (tidak ada dokumentasi foto per tanaman, tidak ada pengelompokan berdasarkan kebun).
+- **Lupa jadwal perawatan**: tidak ada pengingat kapan harus menyiram atau memupuk tanaman, sehingga tanaman sering terlambat dirawat.
+- **Tidak ada riwayat perkembangan**: pemilik tanaman tidak punya catatan visual untuk memantau apakah tanaman tumbuh sehat dari waktu ke waktu.
+- **Sulit evaluasi pola perawatan**: tanpa data historis, sulit menilai apakah jadwal siram/pupuk yang diterapkan sudah tepat atau perlu disesuaikan.
+- **Solusi yang ada belum spesifik**: aplikasi pengingat umum (to-do list, kalender) tidak dirancang khusus untuk kebutuhan berkebun (tidak ada dokumentasi foto per tanaman, tidak ada pengelompokan berdasarkan kebun).
 
 Masalah ini relevan terutama bagi individu yang punya kesibukan tinggi namun tetap ingin menjadikan berkebun sebagai kegiatan yang berkelanjutan, bukan sekadar tren sesaat.
 
