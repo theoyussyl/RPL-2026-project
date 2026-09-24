@@ -41,7 +41,7 @@ Masalah ini relevan terutama bagi individu yang punya kesibukan tinggi namun tet
 
 - **Bagi pengguna:** tanaman lebih terawat konsisten, ada bukti visual perkembangan, mudah mengevaluasi pola perawatan.
 - **Bagi kebiasaan berkebun:** mendorong keberlanjutan hobi berkebun karena mengurangi risiko tanaman mati akibat lupa dirawat.
-- **Bagi pengembang (nilai tugas RPL):** proyek mencakup siklus penuh CRUD, reminder/scheduling logic, dan file upload — cukup representatif untuk menunjukkan kompetensi rekayasa perangkat lunak dalam satu aplikasi web sederhana.
+- **Bagi pengembang (nilai tugas RPL):** proyek mencakup siklus penuh CRUD, reminder/scheduling logic, dan file upload cukup representatif untuk menunjukkan kompetensi rekayasa perangkat lunak dalam satu aplikasi web sederhana.
 
 ---
 
