@@ -8,8 +8,8 @@ Aplikasi manajemen tanaman/kebun rumahan: catat tanaman, atur jadwal siram/pupuk
 - **Backend:** Node.js + TypeScript + Express
 - **Database:** MySQL
 - **ORM:** Prisma
-- **Upload foto:** Multer (disimpan lokal di `apps/api/uploads`)
-- **Monorepo:** npm workspaces (`apps/web`, `apps/api`, `packages/shared`)
+- **Upload foto:** Multer (disimpan lokal di `backend/api/uploads`)
+- **Monorepo:** npm workspaces (`frontend/web`, `backend/api`, `packages/shared`)
 
 ## Struktur Folder
 
@@ -46,10 +46,10 @@ Ini akan menjalankan MySQL di `localhost:3306` dengan database `plant_garden_tra
 ## 3. Konfigurasi Environment
 
 ```bash
-cp .env.example apps/api/.env
+cp .env.example backend/api/.env
 ```
 
-Sesuaikan `DATABASE_URL` di `apps/api/.env` bila perlu.
+Sesuaikan `DATABASE_URL` di `backend/api/.env` bila perlu.
 
 ## 4. Build Package Shared
 
@@ -60,7 +60,7 @@ npm run build:shared
 ## 5. Migrasi & Seed Database
 
 ```bash
-cd apps/api
+cd backend/api
 npx prisma generate
 npx prisma migrate dev --name init
 npx prisma db seed
