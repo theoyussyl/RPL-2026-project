@@ -1,0 +1,15 @@
+{
+  "name": "plant-garden-tracker",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:api": "npm run dev --workspace=backend/api",
+    "dev:web": "npm run dev --workspace=frontend/web",
+    "build:shared": "npm run build --workspace=packages/shared",
+    "build:api": "npm run build --workspace=backend/api",
+    "build:web": "npm run build --workspace=frontend/web"
+  }
+}

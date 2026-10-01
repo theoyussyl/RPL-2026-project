@@ -1,0 +1,76 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+enum CareType {
+  WATERING
+  FERTILIZING
+}
+
+enum PlantCondition {
+  HEALTHY
+  WILTED
+  FLOWERING
+  FRUITING
+  DISEASED
+}
+
+model Garden {
+  Id        Int      @id @default(autoincrement())
+  Name      String
+  Location  String?
+  CreatedAt DateTime @default(now())
+  Plants    Plant[]
+}
+
+model Plant {
+  Id          Int            @id @default(autoincrement())
+  GardenId    Int
+  Garden      Garden         @relation(fields: [GardenId], references: [Id])
+  Name        String
+  Species     String?
+  PlantedDate DateTime?
+  CreatedAt   DateTime       @default(now())
+  Schedules   CareSchedule[]
+  CareLogs    CareLog[]
+  GrowthLogs  GrowthLog[]
+}
+
+model CareSchedule {
+  Id            Int       @id @default(autoincrement())
+  PlantId       Int
+  Plant         Plant     @relation(fields: [PlantId], references: [Id])
+  Type          CareType
+  FrequencyDays Int
+  LastDoneAt    DateTime?
+  NextDueAt     DateTime
+  CreatedAt     DateTime  @default(now())
+  CareLogs      CareLog[]
+}
+
+model CareLog {
+  Id         Int          @id @default(autoincrement())
+  PlantId    Int
+  Plant      Plant        @relation(fields: [PlantId], references: [Id])
+  ScheduleId Int
+  Schedule   CareSchedule @relation(fields: [ScheduleId], references: [Id])
+  Type       CareType
+  DoneAt     DateTime     @default(now())
+  CreatedAt  DateTime     @default(now())
+}
+
+model GrowthLog {
+  Id        Int            @id @default(autoincrement())
+  PlantId   Int
+  Plant     Plant          @relation(fields: [PlantId], references: [Id])
+  PhotoUrl  String
+  Note      String?
+  Condition PlantCondition
+  LoggedAt  DateTime       @default(now())
+  CreatedAt DateTime       @default(now())
+}
