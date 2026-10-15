@@ -1,0 +1,5 @@
+=== Verifikasi Bugfix: Delete Jadwal yang Punya Riwayat CareLog ===
+[PASS] Hapus jadwal yang sudah punya riwayat -> 400 dengan pesan jelas (TIDAK crash)
+[PASS] Hapus jadwal yang tidak ada -> 404 (TIDAK crash)
+[PASS] Hapus jadwal yang belum punya riwayat -> 204 sukses seperti biasa
+=== Semua assertion LULUS (3/3) - server tidak lagi crash saat delete gagal ===

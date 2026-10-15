@@ -1,0 +1,6 @@
+=== Verifikasi Fitur 1: Validasi CRUD Kebun & Tanaman ===
+[PASS] Nilai kosong ditolak dengan pesan yang benar
+[PASS] Nilai hanya spasi ditolak dengan pesan yang benar
+[PASS] Nilai undefined ditolak dengan pesan yang benar
+[PASS] Nilai valid diterima (return null, tidak ada error)
+=== Semua assertion LULUS (4/4) ===

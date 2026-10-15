@@ -1,0 +1,9 @@
+=== Verifikasi Fitur 2: Jadwal Perawatan & Status Perawatan ===
+[PASS] AC1 - NextDueAt dihitung otomatis (From + FrequencyDays): 2026-01-01 + 3 hari = 2026-01-04
+[PASS] AC3 - Tanaman tanpa jadwal -> status NO_SCHEDULE
+[PASS] AC3 - Jadwal yang sudah lewat (H-1) -> status OVERDUE
+[PASS] AC3 - Jadwal besok (dalam 2 hari) -> status DUE_SOON
+[PASS] AC3 - Jadwal 10 hari lagi -> status OK
+=== Simulasi AC2: Tandai Sudah Dilakukan ===
+[PASS] AC2 - Setelah 'Tandai Sudah Dilakukan', NextDueAt dihitung ulang dari DoneAt + FrequencyDays
+=== Semua assertion LULUS (6/6) ===

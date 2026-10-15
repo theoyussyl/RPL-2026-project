@@ -1,0 +1,6 @@
+=== Verifikasi: Hapus Jadwal Sekaligus Riwayatnya (Cascade) ===
+[SETUP] Sebelum hapus: Schedule#1 punya 2 CareLog, Schedule#2 punya 1 CareLog
+[PASS] Schedule#1 berhasil terhapus meskipun sudah punya riwayat
+[PASS] Seluruh CareLog milik Schedule#1 ikut terhapus (tidak ada data yatim)
+[PASS] Schedule#2 dan CareLog miliknya TIDAK ikut terpengaruh (isolasi benar)
+=== Semua assertion LULUS (3/3) ===

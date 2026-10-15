@@ -1,0 +1,44 @@
+
+validation.test.ts > ValidateRequiredText
+  ✓ mengembalikan pesan error jika nilai kosong
+  ✓ mengembalikan pesan error jika nilai hanya spasi
+  ✓ mengembalikan pesan error jika nilai undefined
+  ✓ mengembalikan null jika nilai valid
+
+careLogic.test.ts > CalculateNextDueAt
+  ✓ menambahkan FrequencyDays ke tanggal acuan dengan benar
+
+careLogic.test.ts > DetermineCareStatus
+  ✓ mengembalikan NO_SCHEDULE jika tidak ada jadwal
+  ✓ mengembalikan OVERDUE jika NextDueAt sudah lewat
+  ✓ mengembalikan DUE_SOON jika NextDueAt dalam 2 hari ke depan
+  ✓ mengembalikan OK jika NextDueAt lebih dari 2 hari ke depan
+
+scheduleValidation.test.ts > ValidateScheduleInput
+  ✓ menolak Type yang bukan WATERING/FERTILIZING
+  ✓ menolak Type kosong
+  ✓ menolak FrequencyDays 0 (bukan bilangan positif)
+  ✓ menolak FrequencyDays negatif
+  ✓ menolak FrequencyDays desimal
+  ✓ menerima input valid (WATERING, 3 hari)
+  ✓ menerima input valid (FERTILIZING, 7 hari)
+
+dashboardLogic.test.ts > BuildDashboardResult
+  ✓ mengembalikan ringkasan kosong jika tidak ada kebun
+  ✓ menghitung TotalGardens dan TotalPlants dengan benar lintas beberapa kebun
+  ✓ menandai tanaman tanpa jadwal sebagai PlantsWithoutSchedule & NO_SCHEDULE
+  ✓ menghitung OverdueSchedules dari jadwal TERDEKAT tiap tanaman
+  ✓ menghitung SchedulesDueToday hanya untuk jadwal yang jatuh tempo HARI INI
+
+scheduleDeletion.test.ts > RemoveScheduleAndLogs
+  ✓ menghapus jadwal yang ditarget beserta seluruh CareLog miliknya
+  ✓ tidak memengaruhi jadwal dan riwayat lain yang tidak ditarget
+  ✓ tetap berjalan normal jika jadwal belum punya riwayat sama sekali
+  ✓ tidak menghapus apapun jika ScheduleId tidak ditemukan
+
+============================================================
+Test Files: 5 passed (5)
+Tests:      25 passed, 0 failed (25 total)
+
+ALL TESTS PASSED ✅
+============================================================
